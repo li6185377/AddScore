@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C540AA7A18C55CA700FF4A10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C540AA7918C55CA700FF4A10 /* Foundation.framework */; };
+		C540AA7C18C55CA700FF4A10 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C540AA7B18C55CA700FF4A10 /* CoreGraphics.framework */; };
+		C540AA7E18C55CA700FF4A10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C540AA7D18C55CA700FF4A10 /* UIKit.framework */; };
+		C540AA8418C55CA700FF4A10 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C540AA8218C55CA700FF4A10 /* InfoPlist.strings */; };
+		C540AA8618C55CA700FF4A10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C540AA8518C55CA700FF4A10 /* main.m */; };
+		C540AA8A18C55CA700FF4A10 /* LKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C540AA8918C55CA700FF4A10 /* LKAppDelegate.m */; };
+		C540AA9018C55CA700FF4A10 /* LKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C540AA8F18C55CA700FF4A10 /* LKViewController.m */; };
+		C540AA9218C55CA700FF4A10 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C540AA9118C55CA700FF4A10 /* Images.xcassets */; };
+		C540AA9918C55CA700FF4A10 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C540AA9818C55CA700FF4A10 /* XCTest.framework */; };
+		C540AA9A18C55CA700FF4A10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C540AA7918C55CA700FF4A10 /* Foundation.framework */; };
+		C540AA9B18C55CA700FF4A10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C540AA7D18C55CA700FF4A10 /* UIKit.framework */; };
+		C540AAA318C55CA700FF4A10 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C540AAA118C55CA700FF4A10 /* InfoPlist.strings */; };
+		C540AAA518C55CA700FF4A10 /* AddScoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C540AAA418C55CA700FF4A10 /* AddScoreTests.m */; };
+		C540AAAF18C55D0E00FF4A10 /* LKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C540AAAE18C55D0E00FF4A10 /* LKViewController.xib */; };
+		C540AAB318C55D8E00FF4A10 /* LKAddScoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = C540AAB218C55D8E00FF4A10 /* LKAddScoreView.m */; };
+		C540AAB618C55F4F00FF4A10 /* record_addscorer.png in Resources */ = {isa = PBXBuildFile; fileRef = C540AAB418C55F4F00FF4A10 /* record_addscorer.png */; };
+		C540AAB718C55F4F00FF4A10 /* record_addscorer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C540AAB518C55F4F00FF4A10 /* record_addscorer@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C540AA9C18C55CA700FF4A10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C540AA6E18C55CA700FF4A10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C540AA7518C55CA700FF4A10;
+			remoteInfo = AddScore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C540AA7618C55CA700FF4A10 /* AddScore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddScore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C540AA7918C55CA700FF4A10 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C540AA7B18C55CA700FF4A10 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C540AA7D18C55CA700FF4A10 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C540AA8118C55CA700FF4A10 /* AddScore-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AddScore-Info.plist"; sourceTree = "<group>"; };
+		C540AA8318C55CA700FF4A10 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C540AA8518C55CA700FF4A10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C540AA8718C55CA700FF4A10 /* AddScore-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AddScore-Prefix.pch"; sourceTree = "<group>"; };
+		C540AA8818C55CA700FF4A10 /* LKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKAppDelegate.h; sourceTree = "<group>"; };
+		C540AA8918C55CA700FF4A10 /* LKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKAppDelegate.m; sourceTree = "<group>"; };
+		C540AA8E18C55CA700FF4A10 /* LKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKViewController.h; sourceTree = "<group>"; };
+		C540AA8F18C55CA700FF4A10 /* LKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKViewController.m; sourceTree = "<group>"; };
+		C540AA9118C55CA700FF4A10 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C540AA9718C55CA700FF4A10 /* AddScoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddScoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C540AA9818C55CA700FF4A10 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C540AAA018C55CA700FF4A10 /* AddScoreTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AddScoreTests-Info.plist"; sourceTree = "<group>"; };
+		C540AAA218C55CA700FF4A10 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C540AAA418C55CA700FF4A10 /* AddScoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddScoreTests.m; sourceTree = "<group>"; };
+		C540AAAE18C55D0E00FF4A10 /* LKViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LKViewController.xib; sourceTree = "<group>"; };
+		C540AAB118C55D8E00FF4A10 /* LKAddScoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKAddScoreView.h; sourceTree = "<group>"; };
+		C540AAB218C55D8E00FF4A10 /* LKAddScoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKAddScoreView.m; sourceTree = "<group>"; };
+		C540AAB418C55F4F00FF4A10 /* record_addscorer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = record_addscorer.png; sourceTree = "<group>"; };
+		C540AAB518C55F4F00FF4A10 /* record_addscorer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "record_addscorer@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C540AA7318C55CA700FF4A10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C540AA7C18C55CA700FF4A10 /* CoreGraphics.framework in Frameworks */,
+				C540AA7E18C55CA700FF4A10 /* UIKit.framework in Frameworks */,
+				C540AA7A18C55CA700FF4A10 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C540AA9418C55CA700FF4A10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C540AA9918C55CA700FF4A10 /* XCTest.framework in Frameworks */,
+				C540AA9B18C55CA700FF4A10 /* UIKit.framework in Frameworks */,
+				C540AA9A18C55CA700FF4A10 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C540AA6D18C55CA700FF4A10 = {
+			isa = PBXGroup;
+			children = (
+				C540AA7F18C55CA700FF4A10 /* AddScore */,
+				C540AA9E18C55CA700FF4A10 /* AddScoreTests */,
+				C540AA7818C55CA700FF4A10 /* Frameworks */,
+				C540AA7718C55CA700FF4A10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C540AA7718C55CA700FF4A10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C540AA7618C55CA700FF4A10 /* AddScore.app */,
+				C540AA9718C55CA700FF4A10 /* AddScoreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C540AA7818C55CA700FF4A10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C540AA7918C55CA700FF4A10 /* Foundation.framework */,
+				C540AA7B18C55CA700FF4A10 /* CoreGraphics.framework */,
+				C540AA7D18C55CA700FF4A10 /* UIKit.framework */,
+				C540AA9818C55CA700FF4A10 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C540AA7F18C55CA700FF4A10 /* AddScore */ = {
+			isa = PBXGroup;
+			children = (
+				C540AAB018C55D8300FF4A10 /* View */,
+				C540AA8818C55CA700FF4A10 /* LKAppDelegate.h */,
+				C540AA8918C55CA700FF4A10 /* LKAppDelegate.m */,
+				C540AA8E18C55CA700FF4A10 /* LKViewController.h */,
+				C540AA8F18C55CA700FF4A10 /* LKViewController.m */,
+				C540AAAE18C55D0E00FF4A10 /* LKViewController.xib */,
+				C540AA9118C55CA700FF4A10 /* Images.xcassets */,
+				C540AA8018C55CA700FF4A10 /* Supporting Files */,
+			);
+			path = AddScore;
+			sourceTree = "<group>";
+		};
+		C540AA8018C55CA700FF4A10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C540AA8118C55CA700FF4A10 /* AddScore-Info.plist */,
+				C540AA8218C55CA700FF4A10 /* InfoPlist.strings */,
+				C540AA8518C55CA700FF4A10 /* main.m */,
+				C540AA8718C55CA700FF4A10 /* AddScore-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C540AA9E18C55CA700FF4A10 /* AddScoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				C540AAA418C55CA700FF4A10 /* AddScoreTests.m */,
+				C540AA9F18C55CA700FF4A10 /* Supporting Files */,
+			);
+			path = AddScoreTests;
+			sourceTree = "<group>";
+		};
+		C540AA9F18C55CA700FF4A10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C540AAA018C55CA700FF4A10 /* AddScoreTests-Info.plist */,
+				C540AAA118C55CA700FF4A10 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C540AAB018C55D8300FF4A10 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C540AAB418C55F4F00FF4A10 /* record_addscorer.png */,
+				C540AAB518C55F4F00FF4A10 /* record_addscorer@2x.png */,
+				C540AAB118C55D8E00FF4A10 /* LKAddScoreView.h */,
+				C540AAB218C55D8E00FF4A10 /* LKAddScoreView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C540AA7518C55CA700FF4A10 /* AddScore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C540AAA818C55CA700FF4A10 /* Build configuration list for PBXNativeTarget "AddScore" */;
+			buildPhases = (
+				C540AA7218C55CA700FF4A10 /* Sources */,
+				C540AA7318C55CA700FF4A10 /* Frameworks */,
+				C540AA7418C55CA700FF4A10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AddScore;
+			productName = AddScore;
+			productReference = C540AA7618C55CA700FF4A10 /* AddScore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C540AA9618C55CA700FF4A10 /* AddScoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C540AAAB18C55CA700FF4A10 /* Build configuration list for PBXNativeTarget "AddScoreTests" */;
+			buildPhases = (
+				C540AA9318C55CA700FF4A10 /* Sources */,
+				C540AA9418C55CA700FF4A10 /* Frameworks */,
+				C540AA9518C55CA700FF4A10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C540AA9D18C55CA700FF4A10 /* PBXTargetDependency */,
+			);
+			name = AddScoreTests;
+			productName = AddScoreTests;
+			productReference = C540AA9718C55CA700FF4A10 /* AddScoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C540AA6E18C55CA700FF4A10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LK;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = LJH;
+				TargetAttributes = {
+					C540AA9618C55CA700FF4A10 = {
+						TestTargetID = C540AA7518C55CA700FF4A10;
+					};
+				};
+			};
+			buildConfigurationList = C540AA7118C55CA700FF4A10 /* Build configuration list for PBXProject "AddScore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C540AA6D18C55CA700FF4A10;
+			productRefGroup = C540AA7718C55CA700FF4A10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C540AA7518C55CA700FF4A10 /* AddScore */,
+				C540AA9618C55CA700FF4A10 /* AddScoreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C540AA7418C55CA700FF4A10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C540AAB718C55F4F00FF4A10 /* record_addscorer@2x.png in Resources */,
+				C540AAB618C55F4F00FF4A10 /* record_addscorer.png in Resources */,
+				C540AA9218C55CA700FF4A10 /* Images.xcassets in Resources */,
+				C540AAAF18C55D0E00FF4A10 /* LKViewController.xib in Resources */,
+				C540AA8418C55CA700FF4A10 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C540AA9518C55CA700FF4A10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C540AAA318C55CA700FF4A10 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C540AA7218C55CA700FF4A10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C540AA8618C55CA700FF4A10 /* main.m in Sources */,
+				C540AA8A18C55CA700FF4A10 /* LKAppDelegate.m in Sources */,
+				C540AA9018C55CA700FF4A10 /* LKViewController.m in Sources */,
+				C540AAB318C55D8E00FF4A10 /* LKAddScoreView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C540AA9318C55CA700FF4A10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C540AAA518C55CA700FF4A10 /* AddScoreTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C540AA9D18C55CA700FF4A10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C540AA7518C55CA700FF4A10 /* AddScore */;
+			targetProxy = C540AA9C18C55CA700FF4A10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C540AA8218C55CA700FF4A10 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C540AA8318C55CA700FF4A10 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C540AAA118C55CA700FF4A10 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C540AAA218C55CA700FF4A10 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C540AAA618C55CA700FF4A10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C540AAA718C55CA700FF4A10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C540AAA918C55CA700FF4A10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AddScore/AddScore-Prefix.pch";
+				INFOPLIST_FILE = "AddScore/AddScore-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C540AAAA18C55CA700FF4A10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AddScore/AddScore-Prefix.pch";
+				INFOPLIST_FILE = "AddScore/AddScore-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C540AAAC18C55CA700FF4A10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AddScore.app/AddScore";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AddScore/AddScore-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AddScoreTests/AddScoreTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C540AAAD18C55CA700FF4A10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AddScore.app/AddScore";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AddScore/AddScore-Prefix.pch";
+				INFOPLIST_FILE = "AddScoreTests/AddScoreTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C540AA7118C55CA700FF4A10 /* Build configuration list for PBXProject "AddScore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C540AAA618C55CA700FF4A10 /* Debug */,
+				C540AAA718C55CA700FF4A10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C540AAA818C55CA700FF4A10 /* Build configuration list for PBXNativeTarget "AddScore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C540AAA918C55CA700FF4A10 /* Debug */,
+				C540AAAA18C55CA700FF4A10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C540AAAB18C55CA700FF4A10 /* Build configuration list for PBXNativeTarget "AddScoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C540AAAC18C55CA700FF4A10 /* Debug */,
+				C540AAAD18C55CA700FF4A10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C540AA6E18C55CA700FF4A10 /* Project object */;
+}
